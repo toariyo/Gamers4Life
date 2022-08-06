@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Jeopardy</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <!-- Hero -->
+  <section class="hero has-background-black has-text-center">
+    <div class="hero-bodyy has-text-centered">
+      <p class="title is-size-1 has-text-success">Jeopardy</p>
+    </div>
+  </section>
+    <div class="containerz">
+      <h><b>Let's Play Jeopardy</b></h>
+      <h3><b>Your score: </b><span id="score"><b>[Score]</b></span></h3>
+      <div class="buttons">
+        <button id="random">Random Question</button>
+        <button id="hard">Hard Question</button>
+        <button id="sports">Sports Question</button>
+      </div>
+      <div class="questionCardz">
+        <div class="questionHeader">
+          for <span id="points">[X00]</span> points:
+        </div>
+      </div>
+
+      <div class="questionCardz">
+        <div id="question">[QUESTION HERE]</div>
+        <div>
+          <input type="text" id="userAnswer" />
+          <input type="submit" value="submit" id="submit" />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
