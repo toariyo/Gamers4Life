@@ -1,0 +1,64 @@
+<!-- Final Project - Gaming Site (Game #1 Includes Hangman,
+Game #2 includes ...) -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>ReverseHangman4Life</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+  <!-- Hero -->
+  <section class="hero has-background-black has-text-center">
+    <div class="hero-bodyy has-text-centered">
+      <p class="title is-size-1 has-text-success">Reverse Hangman</p>
+    </div>
+  </section>
+  <div class="containers has-background-white has-text-centered">
+  <!-- Card -->
+   <div class="card-content is-flex is-horizontal-center">
+    <div class="media">
+      <div class="media-center">
+        <figure class="image">
+          <img id="test" src="Images/Hangman.png" alt="A Hanged Man">
+        </figure>
+      </div>
+    </div>
+   </div>
+      <div class="questionCard has-text-success-dark">
+        <div id="randomword">W O R D</div>
+        <br>
+        <p id="mylives">You have 6 lives!</p>
+        <p id="Topic">The current topic is "Fruits"</p>
+        
+        <div>
+          <input type="text" maxlength="1" id="userAnswer" />
+          <input type="submit" value="submit" id="submit" />
+        </div>
+        <br>
+<!--         <button id="start" class="button is-large">
+          Click to Start Game
+        </button>  --> 
+        </div>
+  <br>
+  <p id="hint1">...</p>
+  <button id="hint" class="button is-large has-background-success has-text-white">
+    Hint 
+  </button>
+  
+
+
+    
+  <script src="hangman.js"></script>
+
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  </div>
+</body>
+
+</html>
