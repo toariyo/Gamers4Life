@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Food Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+   <!-- Hero -->
+  <section class="hero has-background-black has-text-center">
+    <div class="hero-bodyy has-text-centered">
+      <p class="title is-size-1 has-text-success">Fast Food Restaurant Quiz</p>
+    </div>
+  </section>
+    <div class="container">
+      <section class="section">
+        <h1 class="title">Can you guess the top 13 fast food restaurants in the United States? Make some guesses!</h1>
+        <h2 class="subtitle">
+          Type your guesses below! If you get a match, it should show up
+          instantly.
+        </h2>
+        <input
+          id="guess"
+          class="input is-primary is-large"
+          type="text"
+          name="fast food restaurant"
+          placeholder="Guess a fast food restaurant!"
+        />
+      </section>
+      <section>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-danger" id="Starbucks">
+              <p class="title">Starbucks</p>
+              <p class="subtitle">Coffee!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-success" id="Zaxbys">
+              <p class="title">Zaxby's</p>
+              <p class="subtitle">Crispy Chicken Sandwiches!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-link" id="Popeyes">
+              <p class="title">Popeyes</p>
+              <p class="subtitle">Cajun flavor goodness!</p>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-child notification is-info hidden has-background-info" id="Wendys">
+              <p class="title">Wendy's</p>
+              <p class="subtitle">Tasty Baconators!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-primary" id="Whataburger">
+              <p class="title">Whataburger</p>
+              <p class="subtitle">What a (great) burger!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-warning" id="TacoBell">
+              <p class="title">Taco Bell</p>
+              <p class="subtitle">Its Taco Everyday!</p>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-dark" id="Biscuitville">
+              <p class="title">Biscuitville</p>
+              <p class="subtitle">Buttermilk biscuits!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-white has-text-black" id="Arbys">
+              <p class="title">Arby's</p>
+              <p class="subtitle">We have the MEAT!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-black has-text-white" id="DairyQueen">
+              <p class="title">Dairy Queen</p>
+              <p class="subtitle">Selling the best Milkshakes!</p>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-child notification is-info hidden has-background-primary" id="Culvers">
+              <p class="title">Culver's</p>
+              <p class="subtitle">ButterBurgers!!!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-danger" id="Subway">
+              <p class="title">Subway</p>
+              <p class="subtitle">5 dollar...5 dollar.. 5 dollar foot long!!</p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child notification is-info hidden has-background-success" id="McDonalds">
+              <p class="title">McDonalds</p>
+              <p class="subtitle">Golden Arches!!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="food.js" type="text/javascript" defer></script>
+  </body>
+</html>
